@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/userImage"
+                android:layout_width="0dp"
+                android:layout_height="128dp"
+                android:layout_weight="0.3"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/image_content_description"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_contact_picture" />
+
+            <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+                android:id="@+id/userName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="0.7"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+            android:id="@+id/titleAffinity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_left"
+            android:text="@string/affinity"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone" />
+
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/userAffinity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/double_margin"
+            android:paddingRight="@dimen/margin_right"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:visibility="gone" />
+
+        <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+            android:id="@+id/titlePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_left"
+            android:text="@string/phone"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:paddingLeft="@dimen/double_margin"
+            android:paddingRight="@dimen/margin_right"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+            android:id="@+id/titleEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_left"
+            android:text="@string/email"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:paddingLeft="@dimen/double_margin"
+            android:paddingRight="@dimen/margin_right"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+            android:id="@+id/titleGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_left"
+            android:text="@string/gender_hint"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/userGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/double_margin"
+            android:paddingRight="@dimen/margin_right"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+            android:id="@+id/titleBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding_left"
+            android:text="@string/birthday"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/userBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/double_margin"
+            android:paddingRight="@dimen/margin_right"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+</ScrollView>

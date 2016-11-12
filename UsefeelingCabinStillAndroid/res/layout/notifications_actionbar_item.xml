@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="right" >
+    
+    <ImageView
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:clickable="true"
+        android:contentDescription="@string/image_content_description"
+        android:paddingTop="@dimen/padding_top"
+        android:scaleType="centerInside"
+        android:src="@drawable/notifications" />
+
+    <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+        android:id="@+id/actionbar_notifcation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/padding_bottom"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/stroke_red"
+        android:textSize="@dimen/notification_count_text_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

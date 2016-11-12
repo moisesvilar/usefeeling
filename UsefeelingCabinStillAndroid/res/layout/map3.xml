@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/home_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/mapview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:enabled="true" />
+
+        <com.usefeeling.android.cabinstill.widgets.TransparentPanel
+            android:id="@+id/transparentPanel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/padding_bottom"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:onClick="transparentPanel_OnClick"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp" >
+
+            <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:focusable="false"
+                android:paddingLeft="@dimen/padding_left"
+                android:paddingRight="@dimen/padding_right"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/white"
+                android:textIsSelectable="false"
+                android:textStyle="bold" />
+
+            <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+                android:id="@+id/tvSubtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:focusable="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textIsSelectable="false" />
+
+            <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:focusable="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textIsSelectable="false"
+                android:textStyle="italic" />
+
+            <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+                android:id="@+id/tvFurtherInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:focusable="false"
+                android:text="@string/further_info"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textIsSelectable="false"
+                android:textStyle="italic" />
+
+        </com.usefeeling.android.cabinstill.widgets.TransparentPanel>
+
+        <RelativeLayout
+            android:id="@+id/tpProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/padding_bottom"
+            android:background="@color/usefeeling_blue" >
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:indeterminate="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88666666" >
+
+        <ImageView
+            android:id="@+id/ivInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:clickable="false"
+            android:contentDescription="@string/image_content_description"
+            android:scaleType="fitXY"
+            android:src="@drawable/help_map" />
+
+    </RelativeLayout>
+
+</FrameLayout>

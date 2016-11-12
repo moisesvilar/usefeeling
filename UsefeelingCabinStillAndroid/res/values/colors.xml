@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="usefeeling_green">#9CCF31</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green_yellow">#C5E26D</color>
+    <color name="dark_red">#8B0000</color>
+    <color name="stroke_red">#990000</color>
+    <color name="stroke_yellow">#baba00</color>
+    <color name="stroke_green">#4d9900</color>
+    <color name="transparent_usefeeling_green">#7F9DBB59</color>
+    <color name="transparent_green_yellow">#7FDEFDB0</color>
+    <drawable name="white">#FFFFFF</drawable>
+    <drawable name="transparent">#00FFFFFF</drawable>
+    <color name="pressed_blue">#1E90FF</color>
+    <color name="light_green">#99CC00</color>
+    <color name="dark_green">#669900</color>
+    <color name="usefeeling_blue">#009ECE</color>
+    <color name="usefeeling_orange">#FF9E00</color>
+    <color name="usefeeling_yellow">#F7D708</color>
+    <color name="usefeeling_red">#CE0000</color>
+    
+</resources>

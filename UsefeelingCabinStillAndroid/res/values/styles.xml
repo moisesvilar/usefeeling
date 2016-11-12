@@ -1,0 +1,75 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="CustomWindowTitleBackground">
+        <item name="android:background">@color/usefeeling_green</item>
+    </style>
+
+    <!-- Application themes. -->
+    <style name="LightThemeNoActionBar" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewLight</item>
+        <item name="android:dropDownItemStyle">@style/Widget.DropDownItemLight</item>
+    </style>
+
+    <style name="LightTheme" parent="android:Theme.Light">
+        <item name="android:windowTitleSize">50dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewLight</item>
+        <item name="android:dropDownItemStyle">@style/Widget.DropDownItemLight</item>
+    </style>
+
+    <style name="AutoCompleteTextViewLight" parent="@android:style/Widget.AutoCompleteTextView">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="Widget.DropDownItemLight" parent="@android:style/Widget.DropDownItem">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <!-- UseFeeling style Button -->
+    <style name="UseFeelingButton" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/usefeeling_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:shadowColor">#000000</item>
+    	<item name="android:shadowDx">1</item>
+    	<item name="android:shadowDy">1</item>
+    	<item name="android:shadowRadius">2</item>
+    </style>
+    
+    <!-- UseFeeling style Transparent Button -->
+    <style name="UseFeelingTransparentButton">
+        <item name="android:layout_width">fill_parent</item>
+    	<item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/usefeeling_transparent_button</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!-- UseFeeling style ImageButton -->
+    <style name="UseFeelingImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@drawable/usefeeling_button</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:layout_margin">2dip</item>
+    </style>
+
+    <!-- Shadow TextView -->
+    <style name="ShadowTextView">
+        <item name="android:paddingLeft">4dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">-5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">0.1</item>
+    </style>
+
+</resources>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UseFeeling</string>
+    <string name="wait_please">Espere, por favor&#8230;</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="welcome_to">Bienvenido a&#8230;</string>
+    <string name="are_you_new">¿Eres nuevo en UseFeeling? ¡Crea una cuenta!</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="are_you_member">¿Ya eres miembro de UseFeeling? ¡Inicia sesión!</string>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="what_is_usefeeling_title">¿Qué es UseFeeling?</string>
+    <string name="what_is_usefeeling">Con UseFeeling queremos ayudarte a disfrutar más de tu tiempo libre. ¿Cómo lo hacemos? A partir de esta aplicación móvil, en la que recibirás directamente las propuestas de ocio a tu alrededor que más se ajusten a tus gustos e intereses, sin que tengas que cubrir ningún formulario ni realizar ninguna búsqueda ni filtrado. Otras alternativas te obligan a escribir estos datos para ofrecerte lo mismo. En UseFeeling no queremos que pierdas el tiempo con esto: queremos que gastes tu tiempo en disfrutarlo al máximo ;)</string>
+    <string name="have_you_facebook_title">¿Tienes una cuenta de Facebook?</string>
+    <string name="have_you_facebook">Si nos das permiso, cogeremos tus datos personales de tu cuenta de Facebook: nombre, fecha de nacimiento etc. La creación de tu cuenta de UseFeeling será mucho más sencilla y podremos sugerirte amigos de una forma mucho más eficiente. NUNCA revelaremos tus datos sin tu permiso y NUNCA publicaremos algo en tu cuenta de Facebook sin tu consentimiento.</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="retry">Volver a intentar</string>
+    <string name="male">Hombre</string>
+    <string name="female">Mujer</string>
+    <string name="info_profile_picture">Click para cambiar.</string>
+    <string name="name_hint">Nombre y Apellidos</string>
+    <string name="birth_date_hint">Fecha de Nacimiento</string>
+    <string name="gender_hint">Sexo</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="info_mobile_phone">Tu número de móvil se utilizará sólo como identificación. NUNCA lo revelaremos sin tu permiso.</string>
+    <string name="mobile_phone_hint">Teléfono Móvil</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="info_password">La contraseña debe tener al menos 6 caracteres.</string>
+    <string name="show_password">Mostrar contraseña.</string>
+    <string name="create_account_title">Datos de tu cuenta</string>
+    <string name="set_birth_date">Introduce tu fecha de nacimiento</string>
+    <string name="choose_email">Escoge qué dirección de correo electrónico quieres vincular con UseFeeling</string>
+    <string name="gallery_error">Ha ocurrido un error con la galería.</string>
+    <string name="error_name">Debe indicar su nombre y apellidos o un alias que lo identifique.</string>
+    <string name="error_birth_date">Debe introducir una fecha de nacimiento válida, con el formato dd-mm-aaaa.</string>
+    <string name="error_age">Debe tener más de 18 años para poder crear una cuenta de UseFeeling.</string>
+    <string name="error_email">Debe introducir una dirección de correo válida.</string>
+    <string name="error_password">Debe especificar una contraseña de acceso de al menos 6 caracteres.</string>
+    <string name="unknown_error">Ha ocurrido un error desconocido.</string>
+    <string name="creating_account">Creando la cuenta&#8230;</string>
+    <string name="city_not_in_usefeeling">Hemos detectado que estás en [$CITY]. Puede que UseFeeling no esté desplegado allí, así que no podremos ofrecerte nuestro mejor servicio. Quizás quieras esperar a que lleguemos a tu ciudad ;)</string>
+    <string name="network_location_disabled">Debe activar el posicionamiento para poder utilizar Usefeeling.</string>
+    <string name="continueuf">Continuar</string>
+    <string name="access">Acceso</string>
+    <string name="remember_password">Recordar contraseña</string>
+    <string name="checkin">Visita</string>
+    <string name="search_friends">Buscar Amigos</string>
+    <string name="by_facebook">Por Facebook</string>
+    <string name="by_name">Por Nombre</string>
+    <string name="name_short_hint">Nombre</string>
+    <string name="by_email">Por Correo Electrónico</string>
+    <string name="friendship_requests">Solicitudes de Amistad</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="invisible">Invisible</string><string name="invisible_summary">Activa esta opción para impedir que tus amigos puedan localizarte en el mapa.</string>
+    <string name="account">Cuenta</string>
+    <string name="search_friends_summary">Busca a tus amigos en UseFeeling.</string>
+    <string name="change_password">Cambiar contraseña</string>
+    <string name="change_password_summary">Cambia tu contraseña.</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="edit_profile_summary">Modifica los datos de tu perfil.</string>
+    <string name="delete_account">Eliminar cuenta</string>
+    <string name="delete_account_summary">Elimina tu cuenta de UseFeeling.</string>
+    <string name="choose_city">Elige ciudad</string>
+    <string name="choose_city_summary">Elige la ciudad para la que quieres ver propuestas de ocio.</string>
+    <string name="fav_places_notifications">De tus locales favoritos</string>
+    <string name="fav_places_notifications_summary">Activa o desactiva las notificaciones push de tus locales favoritos.</string>
+    <string name="nearby_proposals_notifications">De propuestas cercanas</string>
+    <string name="nearby_proposals_notifications_summary">Activa o desactiva las notificaciones push de propuestas cercanas a ti.</string>
+    <string name="suggested_proposals_notifications">De propuestas sugeridas.</string>
+    <string name="suggested_proposals_notifications_summary">Activa o desactiva las notificaciones push de propuestas sugeridas para ti por UseFeeling.</string>
+    <string name="help">Ayuda</string>
+    <string name="tutorial">Ver tutorial</string>
+    <string name="tutorial_summary">Activa la ventana de tutorial la próxima vez que se inicie la aplicación.</string>
+    <string name="contact">Contacto</string>
+    <string name="contact_summary">Contacta con nosotros a través del correo electrónico.</string>
+    <string name="tos">Términos del Servicio</string>
+    <string name="tos_summary">Consulta los términos del servicio UseFeeling.</string>
+    <string name="about">Acerca de</string>
+    <string name="about_summary">Información adicional sobre UseFeeling.</string>
+    <string-array name="first_filter_map_choices">
+        <item>Principal</item><item >¿Dónde comer?</item>
+        <item >¿Dónde tomar algo?</item>
+        <item >¿Por dónde salir?</item>
+        <item >Cambiar de ciudad</item>
+        
+    </string-array>
+    <string-array name="second_filter_map_choices"><item >Locales</item>
+        <item >Eventos</item>
+        <item >Promociones</item>
+        
+    </string-array>
+    <string name="manual_checkin">Visita manual</string>
+    <string name="can_not_find_it">¿No lo encuentras?</string>
+    <string name="suggest_venue">Sugiérenos un nuevo local</string>
+    <string name="last_checkin">Última Visita</string>
+    <string name="friends">Amigos</string>
+    <string name="checkins">Visitas</string>
+    <string name="search_by_name_error">Debe introducir el nombre de un amigo.</string>
+    <string name="search_by_email_error">Debes introducir una dirección de correo electrónico.</string>
+    <string name="send_friendship_request_confirmation">¿Quieres enviar una solicitud de amistad a [$USER]?</string>
+    <string name="old_password">Antigua contraseña</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="new_password_error">Debe introducir una nueva contraseña</string>
+    <string name="new_password_length_error">Debe introducir una nueva contraseña de al menos 6 caracteres de longitud.</string>
+    <string name="old_password_error">Debe introducir su antigua contraseña.</string>
+    <string name="old_password_length_error">Su antigua contraseña debe tener 6 caracteres de longitud como mínimo.</string>
+    <string name="passwords_are_equals_error">Su nueva contraseña no puede ser igual a la antigua.</string>
+    <string name="password_changed_successfully">¡Su contraseña se ha modificado con éxito!</string>
+    <string name="modify_data">Modificar tus datos</string>
+    <string name="delete_account_confirmation">¿Estás seguro de que deseas eliminar tu cuenta? Esta operación no se puede deshacer.</string>
+    <string name="please_wait">Por favor, espere&#8230;</string>
+    <string name="send_email">Enviar correo</string>
+    <string name="send_email_error">No se han encontrado clientes de correo electrónico instalados.</string>
+    <string-array name="profile_titles">
+        <item >INFO</item><item>LOCALES MÁS AFINES</item><item >FAVORITOS</item>
+        
+        
+    </string-array>
+    <string name="privacity">Privacidad</string>
+    <string name="priv_positions">Posiciones</string>
+    <string name="priv_checkins">Visitas</string>
+    <string name="no_checkin">No hay ninguna visita para este usuario.</string>
+    <string name="last_checkin_content">En [$PLACE], el [$DATE]</string>
+    <string name="visits">Visitas en los últimos días</string>
+    <string name="favorites">Favoritos</string>
+    <string name="favorite">Favorito</string>
+    <string-array name="place_page_titles">
+        <item >INFO</item>
+        <item >EVENTOS</item>
+        <item >PROMOCIONES</item>
+    </string-array>
+    <string name="place_marked_as_fav">El local ha sido marcado como favorito.</string>
+    <string name="place_unmarked_as_fav">El local ha sido desmarcado como favorito.</string>
+    <string name="to">Hasta</string>
+    <string name="from">Desde</string>
+    <string name="share">Compartir</string>
+    <string name="share_text">Hola! He encontrado algo interesante en UseFeeling!\n\n[$EVENTNAME],\n\nEn [$PLACENAME]\n\nDescripción:\n\n[$DESCRIPTION].</string>
+    <string name="manual_checkin_confirmation">¿Quieres registrar una visita en [$PLACE]?</string>
+    <string name="friends_here">Amigos aquí</string>
+    <string-array name="checkin_map_options">
+        <item >Ver amigos</item>
+        <item >Ver local</item>
+    </string-array>
+    <string name="suggest_venue_short">Sugiere un local</string>
+    <string name="suggest_venue_map_explanation">Selecciona en el mapa la ubicación del local.</string>
+    <string name="error_venue_name">Debes introducir el nombre del local.</string>
+    <string name="error_no_point">Debes indicar la ubicación del local sobre el mapa.</string>
+    <string-array name="gender_values">
+        <item >Hombre</item>
+        <item >Mujer</item>
+    </string-array>
+    <string name="quit_confirmation">¿Deseas salir de la aplicación?</string>
+    <string name="close_session">Cerrar sesión</string>
+    <string name="close_session_summary">Cierra tu sesión en este dispositivo</string>
+    <string name="close_session_confirmation">¿Está seguro de que desea cerrar su sesión en este dispositivo?</string>
+    <string name="remove_friendship">Eliminar amistad</string>
+    <string name="are_you_sure">¿Estás seguro?</string>
+	<string name="default_cities">Ferrol, Narón, Coruña, Santiago de Compostela, Vigo</string>
+	<string name="usefeeling_short">UF</string>
+    <string name="image_content_description">Default image content description</string>
+    <string name="next">></string>
+    <string name="usefeeling">UseFeeling (beta)</string>
+    <string name="usefeeling_copyright_year">\u00A9 UseFeeling 2013</string>
+    <string name="map_icons_collection">Maps Icons Collection\nhttp://mapicons.nicolasmollet.com</string>
+    <string name="usefeeling_web">www.usefeeling.com</string>
+    <string name="icons_land">Icons Land\nhttp://www.icons-land.com</string>
+    <string name="remove_friendship_title">Eliminar amistad</string>
+    <string name="list_view_is_empty">No hay elementos para mostrar</string>
+    <string name="visit">Visita</string>
+    <string name="friend_here">amigo aquí</string>
+    <string name="accept_tos">He leído y acepto los</string>
+    <string name="error_tos">Debes aceptar los términos y condiciones</string>
+    <string name="network_type_warning">UseFeeling necesita de una buena cobertura para funcionar correctamente. Le recomendamos conectarse a una red WiFi o buscar una zona con mayor cobertura antes de continuar. ¿Desea continuar?</string>
+    <string name="facebook_app_id">285293461498288</string>
+    <string name="last_position">Última posición</string>
+    <string name="loading">Cargando&#8230;</string>
+    <string name="getting_account_data">Obteniendo datos de la cuenta&#8230;</string>
+    <string name="getting_user_last_position">Obteniendo última posición del usuario&#8230;</string>
+    <string name="getting_friends_last_positions">Obteniendo últimas posiciones de amigos&#8230;</string>
+    <string name="building_checkins_list">Construyendo la lista de visitas&#8230;</string>
+    <string name="filtering_positions_list">Filtrando la lista de posiciones&#8230;</string>
+    <string name="getting_city_proposals">Obteniendo propuestas de ocio&#8230;</string>
+    <string name="saving_city_proposals">Guardando propuestas de ocio&#8230;</string>
+    <string name="filtering_checkins">Filtrando visitas&#8230;</string>
+    <string name="getting_notifications">Obteniendo notificaciones&#8230;</string>
+    <string name="getting_friendship_requests">Obteniendo solicitudes de amistad&#8230;</string>
+    <string name="building_places_list">Construyendo lista de locales&#8230;</string>
+    <string name="saving_account_data">Guardando datos de cuenta&#8230;</string>
+    <string name="saving_user_last_position">Guardando última posición del usuario&#8230;</string>
+    <string name="saving_friends_last_positions">Guardando últimas posiciones de amigos&#8230;</string>
+    <string name="saving_notifications">Guardando notificaciones&#8230;</string>
+    <string name="saving_friendship_requests">Guardando solicitudes de amistad&#8230;</string>
+    <string name="saving_checkins">Guardando visitas&#8230;</string>
+    <string name="saving_places">Guardando locales&#8230;</string>
+    <string name="getting_location">Obteniendo posición&#8230;</string>
+    <string name="getting_near_places">Obteniendo locales cercanos&#8230;</string>
+    <string name="saving_near_places">Guardando locales cercanos&#8230;</string>
+    <string name="suggestions">Sugerencias</string>
+    <string name="initializing">Inicializando</string>
+    <string name="enable_network_location">Activar posicionamiento</string>
+    <string name="synchronizing">Sincronizando&#8230;</string>
+    <string name="in_contacts">Entre mis contactos</string>
+    <string name="automatically">Automáticamente</string>
+    <string name="manually">Manualmente</string>
+    <string name="description">Descripción</string>
+    <string name="address">Dirección</string>
+    <string name="phone">Teléfono</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="follow_us">Síguenos en</string>
+    <string name="web">Página web</string>
+    <string name="share_venue_text">Hola! He encontrado un local interesante en UseFeeling!\n\n[$PLACENAME] ([$ADDRESS])\n\n[$DESCRIPTION]</string>
+    <string name="share_title">Compartir [$NAME]</string>
+    <string name="center_map">Centrar mapa</string>
+    <string name="confirm_friendship_request_sufix">ha confirmado tu solicitud de amistad.</string>
+    <string name="send_friendship_request_sufix">te ha enviado una solicitud de amistad.</string>
+    <string name="user_position">Tu posición</string>
+    <string name="friends_positions">Posiciones de tus amigos</string>
+    <string name="favorite_places">Tus locales favoritos</string>
+    <string name="affined_places">Tus locales más afines</string>
+    <string name="places_with_activities">Locales con actividades</string>
+    <string name="rest_places">Resto de locales</string>
+    <string name="map_filter_text">Escoge qué capas quieres que se muestren en tu mapa</string>
+    <string name="section">Sección</string>
+    <string name="section_item">Elemento de sección</string>
+    <string name="profile">Perfil</string>
+    <string name="explore">Explorar</string>
+    <string name="places">Locales</string>
+    <string name="events">Eventos</string>
+    <string name="promos">Promociones</string>
+    <string name="application">Aplicación</string>
+    <string name="settings">Ajustes</string>
+    <string name="venues_search_title">Introduce el nombre del local que quieres encontrar</string>
+    <string name="venues_search_text">Búsqueda de locales</string>
+    <string name="html_accept_tos">He leído y acepto los &lt;a href=\'http://android.usefeeling.com:18080/usefeelingbullietservices/usefeelingtos.html\'&gt;Términos y Condiciones&lt;/a&gt;</string>
+    <string name="create_account_manually">Crear una cuenta manualmente</string>
+    <string name="welcome_to_usefeeling">Bienvenido a UseFeeling</string>
+    <string name="your_position">Tu posición actual</string>
+    <string name="affinity">Afinidad</string>
+    <string name="birthday">Cumpleaños</string>
+    <string name="what_you_wanna_do">¿Qué quieres hacer&#8230;</string>
+    <string name="___now">&#8230;AHORA?</string>
+    <string name="___today">&#8230;HOY?</string>
+    <string name="___later">&#8230;LUEGO?</string>
+    <string name="only_the_most_famous">Sólo lo más FAMOSO</string>
+    <string name="show_me_everything">Muéstrame TODO!</string>
+    <string name="what_you_wanna_do_now">¿Qué quieres hacer AHORA?</string>
+    <string name="what_you_wanna_do_today">¿Qué quieres hacer HOY?</string>
+    <string name="what_you_wanna_do_later">¿Qué quieres hacer LUEGO?</string>
+    <string name="navigation">Cómo llegar</string>
+    <string name="further_info">Pulsa para ver más</string>
+    <string name="location_monitoring">¿Nos das permiso para obtener tu posición?</string>
+    <string name="location_is_required">Sin tu posición no podemos ofrecerte el servicio. La aplicación se cerrará.</string>
+</resources>

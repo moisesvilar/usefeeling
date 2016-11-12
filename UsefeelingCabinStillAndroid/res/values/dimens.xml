@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">20dip</dimen>
+    <dimen name="margin_botton">20dip</dimen>
+    <dimen name="margin_left">10dip</dimen>
+    <dimen name="margin_right">10dip</dimen>
+    <dimen name="padding_left">5dp</dimen>
+    <dimen name="padding_top">5dp</dimen>
+    <dimen name="padding_right">5dp</dimen>
+    <dimen name="padding_bottom">5dp</dimen>
+    <dimen name="margin">20dip</dimen>
+    <dimen name="double_margin">20dip</dimen>
+    <dimen name="notification_count_text_size">12sp</dimen>
+    <dimen name="slidingmenu_shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+</resources>

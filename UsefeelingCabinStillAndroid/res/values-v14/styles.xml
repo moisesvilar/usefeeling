@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Application themes. -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <item name="actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+        <item name="homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="@style/Theme.Sherlock.Light">
+        <item name="actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+        <item name="homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+    </style>
+    
+    <style name="LightThemeNoActionBar" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewLight</item>
+		<item name="android:dropDownItemStyle">@style/Widget.DropDownItemLight</item>
+		<item name="actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+        <item name="homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+ 	</style>
+ 	
+    <style name="LightTheme" parent="android:Theme.DeviceDefault.Light">
+        <item name="android:windowTitleSize">50dip</item>
+        <item name="android:windowTitleBackgroundStyle">@style/CustomWindowTitleBackground</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewLight</item>
+		<item name="android:dropDownItemStyle">@style/Widget.DropDownItemLight</item>
+		<item name="actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:actionBarStyle">@style/actionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+        <item name="homeAsUpIndicator">@drawable/ic_navigation_drawer</item>
+    </style>
+    
+     <style name="actionBarStyle" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+        <item name="android:displayOptions">homeAsUp|showHome</item>
+        <item name="displayOptions">homeAsUp|showHome</item>
+    </style>
+
+</resources>

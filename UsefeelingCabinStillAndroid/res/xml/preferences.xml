@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:key="account" android:title="@string/account"><Preference android:key="change_password" android:title="@string/change_password" android:summary="@string/change_password_summary"/>
+        <Preference android:key="edit_profile" android:title="@string/edit_profile" android:summary="@string/edit_profile_summary"/>
+        <Preference android:key="delete_account" android:summary="@string/delete_account_summary" android:title="@string/delete_account"/>
+        <Preference android:key="close_session" android:title="@string/close_session" android:summary="@string/close_session_summary"/>
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:key="notifications" android:title="@string/notifications">
+        <CheckBoxPreference android:key="fav_places_notifications" android:title="@string/fav_places_notifications" android:summary="@string/fav_places_notifications_summary"/>
+        <CheckBoxPreference android:title="@string/suggested_proposals_notifications" android:summary="@string/suggested_proposals_notifications_summary" android:key="suggested_proposals_notifications"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/help" android:key="help"><Preference android:key="tutorial" android:summary="@string/tutorial_summary" android:title="@string/tutorial"/><Preference android:summary="@string/contact_summary" android:title="@string/contact" android:key="contact" /><Preference android:summary="@string/tos_summary" android:title="@string/tos" android:key="tos" /><Preference android:summary="@string/about_summary" android:title="@string/about" android:key="about" /></PreferenceCategory>
+    
+
+</PreferenceScreen>

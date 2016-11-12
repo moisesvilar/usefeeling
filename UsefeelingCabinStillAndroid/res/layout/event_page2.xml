@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/qcbIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_content_description"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_portrait" />
+            
+            <ImageView
+                android:id="@+id/ivAffinity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_bottom"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/image_content_description"
+                android:scaleType="fitXY"
+                android:src="@drawable/red_circle" />
+
+            <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+                android:id="@+id/tvEventName"
+                style="@style/ShadowTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/qcbIcon"
+                android:layout_alignLeft="@+id/qcbIcon"
+                android:layout_alignRight="@+id/qcbIcon"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="28sp" />
+
+        </RelativeLayout>
+
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/tvSince"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="right"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingTop="@dimen/padding_top"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <com.usefeeling.android.cabinstill.widgets.OrbitronTextView
+            android:id="@+id/tvPlaceNameEventPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingTop="@dimen/padding_top"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="false" />
+
+        <ImageView
+            android:id="@+id/ivEventLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/image_content_description"
+            android:src="@drawable/map" />
+        
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingTop="@dimen/padding_top"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+        
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/tvDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="left"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingTop="@dimen/padding_top"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textIsSelectable="false" />
+        
+        <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+            android:id="@+id/tvTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:gravity="right"
+            android:paddingLeft="@dimen/padding_left"
+            android:paddingRight="@dimen/padding_right"
+            android:paddingTop="@dimen/padding_top"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textIsSelectable="false" />
+        
+    </LinearLayout>
+    
+
+</ScrollView>

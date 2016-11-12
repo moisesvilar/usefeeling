@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/itemNotifications"
+        android:icon="@drawable/notifications"
+        android:showAsAction="always"
+        android:title="@string/notifications">
+    </item>
+    <item
+        android:id="@+id/itemLayers"
+        android:icon="@drawable/ic_actionbarmenuitem_now"
+        android:showAsAction="always"
+        android:title="@string/layers">
+    </item>
+    <item
+        android:id="@+id/itemCenter"
+        android:icon="@drawable/center"
+        android:showAsAction="always"
+        android:title="@string/center_map">
+    </item>
+
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.usefeeling.android"
+    android:versionCode="2000"
+    android:versionName="CabinStill 2.0.0.0" android:installLocation="auto">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.usefeeling.android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-permission android:name="com.usefeeling.android.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name="com.usefeeling.android.cabinstill.applications.CustomApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Styled" >
+        <activity
+            android:name="com.usefeeling.android.cabinstill.activities.MainActivity"
+            android:label="@string/app_name" android:theme="@style/LightThemeNoActionBar" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.StartScreenActivity" android:theme="@style/LightThemeNoActionBar" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.CreateAccountActivity" android:theme="@style/LightThemeNoActionBar" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.LoginActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.SplashActivity" android:theme="@style/LightThemeNoActionBar" android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.usefeeling.android.cabinstill.activities.MapActivity" android:theme="@style/AppTheme.ActionBar" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.SettingsActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.ChangePasswordActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.EditProfileActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.ProfileActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.AboutActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.EventPageActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.PromoPageActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.PlacePageActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.UrlPageActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.NotificationsActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait">
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.usefeeling.android" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService" />
+        <service android:name="com.usefeeling.android.cabinstill.services.CheckinService"></service>
+        <receiver android:name="com.usefeeling.android.cabinstill.receivers.WakefulAlarmReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <meta-data android:resource="@xml/wakeful" android:name="com.commonsware.cwac.wakeful"/>
+        </receiver>
+        <meta-data android:value="@string/facebook_app_id" android:name="com.facebook.sdk.ApplicationId"/>
+        <receiver android:name="com.usefeeling.android.cabinstill.receivers.CheckCheckinService">
+        </receiver>
+        <receiver android:name="com.usefeeling.android.cabinstill.receivers.OnReboot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.usefeeling.android.cabinstill.services.Synchronize"></service>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.PlacesActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.EventsActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait"></activity>
+        <activity android:name="com.usefeeling.android.cabinstill.activities.PromosActivity" android:theme="@style/Theme.Styled" android:screenOrientation="portrait"></activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <activity android:name="com.facebook.LoginActivity"></activity>
+    </application>
+
+</manifest>

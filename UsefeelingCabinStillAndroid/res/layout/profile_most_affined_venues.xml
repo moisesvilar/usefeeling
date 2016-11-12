@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+        android:id="@+id/tvListViewEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/list_view_is_empty"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:visibility="gone" />
+     
+     <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+         android:id="@+id/tvInitialWorking"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:text="@string/wait_please"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+      />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    
+    <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+        android:id="@+id/tvMoreWorkin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/wait_please"
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:visibility="gone"/>
+
+</LinearLayout>

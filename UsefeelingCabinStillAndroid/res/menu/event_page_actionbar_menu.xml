@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemShare" android:title="@string/share" android:icon="@drawable/ic_menu_share_holo_light" android:showAsAction="always"></item>
+</menu>

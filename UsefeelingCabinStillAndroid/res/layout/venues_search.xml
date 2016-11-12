@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.usefeeling.android.cabinstill.widgets.MolengoTextView
+        android:id="@+id/tvSearchVenuesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_bottom"
+        android:text="@string/venues_search_title" />
+    
+    <AutoCompleteTextView
+        android:id="@+id/actvSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"/>
+
+</LinearLayout>
